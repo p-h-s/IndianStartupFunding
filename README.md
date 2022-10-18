@@ -63,12 +63,9 @@ Many companies have to complete a number of fundraising rounds before getting to
 These fundraising rounds allow investors to invest money into a growing company in exchange for equity/ownership.
 The initial investment—also known as seed funding—is followed by various rounds, known as Series A, B, and C.
 A new valuation is done at the time of each funding round. Valuations are determined by various factors, including market size, company potential, current revenues, and management.
-ERD Diagram
+ERD Diagram image.png
 
-image
-
-Data Structure with Primary Keys and Foreign Keys
-
-image
+Data Structure with Primary Keys and Foreign Keys image.png
 
 Above design is in most ideal case, since we pull data from different sourses to fix the data quality issue that exist in India_Funding_AllYear; in reality, the LEFT OUTER JOIN or INNER JOIN did not perform well.
+
